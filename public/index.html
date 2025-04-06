@@ -1,0 +1,25 @@
+<!--
+  Frontend for AI RAG Workshop
+  - Allows users to enter a question
+  - Displays AI-generated response with animation
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RAG Chatbot</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #chat-response { margin-top: 20px; font-size: 18px; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Ask the AI</h1>
+  <input type="text" id="user-query" placeholder="Enter your question" size="50" />
+  <button onclick="askQuestion()">Ask</button>
+  <div id="chat-response"></div>
+  <script src="script.js"></script>
+</body>
+</html>
