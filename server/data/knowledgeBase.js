@@ -1,6 +1,7 @@
 /**
  * Mock Knowledge Base
  * - Used to simulate RAG-style retrieval
+ * sounds like it only "simulates" it. not actually a rag.
  * - Each object has a question and an answer
  */
 
